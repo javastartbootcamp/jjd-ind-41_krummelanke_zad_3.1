@@ -5,8 +5,12 @@ class TvSet {
     int powerConsumption;
     String displayTechnology;
 
-    TvSet() {
-
+    TvSet(String name, int diagonal, String col, int pow, String tech) {
+        brandName = name;
+        screenDiagonal = diagonal;
+        colour = col;
+        powerConsumption = pow;
+        displayTechnology = tech;
     }
 
     void tvSetInfo() {
